@@ -1,5 +1,12 @@
 # HW 0. 
 
+**To submit homework**, you can:
+* write these functions in a [circuits.io](https://circuits.io/lab) lab and share the link to the project with Ms. deBB via eamil. 
+* attach an Arduino sketch file to an email and email it to Ms. deBB
+
+**If you are stuck on these problems** come talk to Ms. deBB! I'm happy to help you through this assignment.
+
+---
 **(1)** Write a function **onOff()** that takes two arguments. The function should make the LED turn on and off and delay. The arguments represent the two delay times. [Hint: we've already written this function in class].
 
 **(2)** Write a function **setBrightness()** that takes a single argument between 0 and 100. It sets the led to a level of brighness between 255 (max on) to 0 (off).
