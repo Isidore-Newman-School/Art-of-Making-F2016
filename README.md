@@ -1,7 +1,6 @@
 # Art of Making
 
-This Github repository will house assignments, homework, notes, and other handouts for Creative Coding.
-Syllabus
+This Github repository will house assignments, homework, notes, and other handouts for the Art of Making.
 
 ---
 
