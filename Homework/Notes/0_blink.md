@@ -13,8 +13,16 @@ The grayed-out text at the top of this example is an extended line comment. Comm
 // This is a single line comment
 ```
 
-## Setup() and Loop() 
-Every Arduino sketch must have a setup()- called one time at the beginning- and a loop()- called over and over as long as the Arduino is plugged in. Look for these functions 
+## Functions
+Built-in functions
+* [setup()](https://www.arduino.cc/en/Reference/Setup) - Every Arduino sketch must have a setup()- called one time at the beginning.
+* [loop()](https://www.arduino.cc/en/Reference/Loop) - Every Arduino sketch must have a loop()- called over and over as long as the Arduino is plugged in. 
+* [digitalWrite()](https://www.arduino.cc/en/Reference/DigitalWrite)
+* [delay()](https://www.arduino.cc/en/Reference/Delay)
+
+Writing our own functions:
+
+Passing arguments to functions:
 
 ## Variables
 
