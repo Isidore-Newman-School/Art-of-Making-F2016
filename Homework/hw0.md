@@ -3,6 +3,7 @@
 **To submit homework**, you can:
 * write these functions in a [circuits.io](https://circuits.io/lab) lab and share the link to the project with Ms. deBB via email. 
 * attach an Arduino sketch file to an email and email it to Ms. deBB
+* email a text file
 
 **If you are stuck on these problems** come talk to Ms. deBB! I'm happy to help you through this assignment.
 
