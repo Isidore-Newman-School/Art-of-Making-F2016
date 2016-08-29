@@ -7,4 +7,4 @@ This Github repository will house assignments, homework, notes, and other handou
 Links:
 
 * [Arduino Reference](https://www.arduino.cc/en/Reference/HomePage)
-* [Virtual Arduino](https://circuits.io/)
+* [Circuit.io](https://circuits.io/) Virtual Arduino
