@@ -4,13 +4,17 @@ We've used the following built-in functions to turn LEDs on/off:
 * digitalWrite()
 * analogWrite()
 
+Now it's time to learn about reading sensors.
+
 ## Circuit
-Now it's time to learn about reading. Begin by setting up the following circuit:
+Begin by setting up the following circuit:
 
 ![alt text](http://s4a.cat/examples/photoresistor_led.png)
 
 ## analogRead()
-We're going to use a new function, analogRead(), to get a value from the light sensor, and we're going to set the variable "input" equal to the light reading. Eventually, we'll use this value to determine whether or not to turn on the night light (LED).
+We're going to use a new function, [analogRead()](https://www.arduino.cc/en/Reference/AnalogRead), to get a value from the light sensor. analogRead() takes a pin number as an argument and returns a number between 0 and 1023- 0 represents 0 volts and 1023 represents 5 volts.
+
+We're going to set the variable "input" equal to the light reading. Eventually, we'll use this value to determine whether or not to turn on the night light (LED).
 
 ```c++
 
