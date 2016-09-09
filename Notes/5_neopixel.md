@@ -12,6 +12,9 @@ The first step is to install the Neopixel Library from the Library Manager:
 
 ![alt text](images/manager.png)
 
+## Wiring
+Plugging in Neopixels is pretty straigtforward. Look closely at the strip. The GND jumper must go to GND, 5V to 5V, and the middle pin (data) can go to any digital pin. Most code uses pin 6.
+
 ## Bare Minimum Neopixel Sketch
 Every Neopixel sketch must include the library by including this file:
 ```c++

@@ -221,4 +221,15 @@ void loop() {
 
 ## Common Circuits
 
+### LED Fade
 
+![alt text] (Notes/images/ledfade.png)
+
+
+### Light Sensor Circuit
+
+![alt text](https://learn.adafruit.com/assets/459)
+
+### Pushbutton
+
+![alt text] (https://lh3.googleusercontent.com/NAipfzKrTgsqNRtxh68_uI8Fmvb6d_lvNedSJgoV3NUvbC4apZFt9vZCSGRvd4jPPFXAbxOcpVkDlIHcsDG_RcOb3if-SsisEsqAiGIvsZc7MDn1pA4IIJK8UbgAWbhF0iPdb7vc)
