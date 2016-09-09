@@ -33,7 +33,7 @@ void testHearing() {
     0%2 = 0;
 
 Use the modulo operator to write a function **fizzBuzz()** that uses Serial.print() to print the numbers from 1 to 100, with two exceptions:
-
+  
 1. For numbers divisible by 3, print "Fizz" instead of the number
 2. For numbers divisible by 5 (and not 3), print "Buzz" instead.
 
@@ -50,6 +50,12 @@ void loop() {
 void fizzBuzz() {
 
 }
+```
+
+**(2)**
+```c++
+int lotteryTicket[] = { 40, 23, 11, 12, 52};
+lotteryTicket[0] + lotteryTicket[]
 ```
 
 **(2)** Create two arrays: 
