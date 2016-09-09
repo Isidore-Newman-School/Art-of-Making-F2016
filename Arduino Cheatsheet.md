@@ -60,7 +60,7 @@ void loop() {
 * [**delay**(milliseconds)](https://www.arduino.cc/en/Reference/Delay)  
 
 * [**digitalWrite**(pin, HIGH)](https://www.arduino.cc/en/Reference/DigitalWrite)
-    * turns pins HIGH or LOW (on/off or 5 volts or 0 volts)
+    * turns pins HIGH or LOW (on/off or 5 volts or 0 volts) 
 * [**digitalRead**(pin)](https://www.arduino.cc/en/Reference/DigitalRead)  
     * returns whether a pin is HIGH or LOW (on/off, 5 volts or 0 volts)
     * useful for reading buttons
