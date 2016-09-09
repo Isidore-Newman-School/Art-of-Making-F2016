@@ -56,21 +56,21 @@ void loop() {
 * [**loop**()](https://www.arduino.cc/en/Reference/Loop)  
     * code that runs over and over again
 * [**pinMode**(pin, OUTPUT)](https://www.arduino.cc/en/Reference/PinMode)  
-..* tell the Arduino whether pins are inputs or outputs
+    * tell the Arduino whether pins are inputs or outputs
 * [**delay**(milliseconds)](https://www.arduino.cc/en/Reference/Delay)  
 
 * [**digitalWrite**(pin, HIGH)](https://www.arduino.cc/en/Reference/DigitalWrite)  
-..* turns pins HIGH or LOW (on/off or 5 volts or 0 volts)
+    * turns pins HIGH or LOW (on/off or 5 volts or 0 volts)
 * [**digitalRead**(pin](https://www.arduino.cc/en/Reference/DigitalRead)  
-..* returns whether a pin is HIGH or LOW (on/off, 5 volts or 0 volts)
+    * returns whether a pin is HIGH or LOW (on/off, 5 volts or 0 volts)
 ..* useful for reading buttons
 * [**analogWrite**(pin, 255)](https://www.arduino.cc/en/Reference/AnalogWrite)
-..* sets a pin to a range of values (0 to 255)
-..* useful for fading LEDs
-..* only works on pins with "~"
+    * sets a pin to a range of values (0 to 255)
+    * useful for fading LEDs
+    * only works on pins with "~"
 * [**analogRead**(pin)](https://www.arduino.cc/en/Reference/AnalogRead)
-..* returns a value between 0 and 1023 (representing 0 volts to 5 volts)
-..* only works on the "analog input" pins
+    * returns a value between 0 and 1023 (representing 0 volts to 5 volts)
+    * only works on the "analog input" pins
 
 ### Declaring our own Functions
 We can declare our own functions below the loop():
