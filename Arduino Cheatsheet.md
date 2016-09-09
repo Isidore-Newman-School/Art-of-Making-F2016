@@ -228,7 +228,7 @@ void loop() {
 
 ### Light Sensor Circuit
 
-![alt text](https://learn.adafruit.com/assets/459)
+![alt text](https://cdn-learn.adafruit.com/assets/assets/000/000/459/original/light_cdspulldowndiag.gif?1447975687)
 
 ### Pushbutton
 
