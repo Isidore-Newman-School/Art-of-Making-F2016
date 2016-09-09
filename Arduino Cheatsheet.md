@@ -51,17 +51,17 @@ void loop() {
 ## Functions
 
 ### Built-in 
-* [**setup**()](https://www.arduino.cc/en/Reference/Setup)
+* [**setup**()](https://www.arduino.cc/en/Reference/Setup)  
 ..* code to initialize the Arduino (pinMode() etc.)
-* [**loop**()](https://www.arduino.cc/en/Reference/Loop)
+* [**loop**()](https://www.arduino.cc/en/Reference/Loop)  
 ..* code that runs over and over again
-* [**pinMode**(pin, OUTPUT)](https://www.arduino.cc/en/Reference/PinMode)
+* [**pinMode**(pin, OUTPUT)](https://www.arduino.cc/en/Reference/PinMode)  
 ..* tell the Arduino whether pins are inputs or outputs
-* [**delay**(milliseconds)](https://www.arduino.cc/en/Reference/Delay)
+* [**delay**(milliseconds)](https://www.arduino.cc/en/Reference/Delay)  
 
-* [**digitalWrite**(pin, HIGH)](https://www.arduino.cc/en/Reference/DigitalWrite)
+* [**digitalWrite**(pin, HIGH)](https://www.arduino.cc/en/Reference/DigitalWrite)  
 ..* turns pins HIGH or LOW (on/off or 5 volts or 0 volts)
-* [**digitalRead**(pin](https://www.arduino.cc/en/Reference/DigitalRead)
+* [**digitalRead**(pin](https://www.arduino.cc/en/Reference/DigitalRead)  
 ..* returns whether a pin is HIGH or LOW (on/off, 5 volts or 0 volts)
 ..* useful for reading buttons
 * [**analogWrite**(pin, 255)](https://www.arduino.cc/en/Reference/AnalogWrite)
