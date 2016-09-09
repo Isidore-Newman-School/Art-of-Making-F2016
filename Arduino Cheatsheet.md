@@ -61,9 +61,9 @@ void loop() {
 
 * [**digitalWrite**(pin, HIGH)](https://www.arduino.cc/en/Reference/DigitalWrite)  
     * turns pins HIGH or LOW (on/off or 5 volts or 0 volts)
-* [**digitalRead**(pin](https://www.arduino.cc/en/Reference/DigitalRead)  
+* [**digitalRead**(pin)](https://www.arduino.cc/en/Reference/DigitalRead)  
     * returns whether a pin is HIGH or LOW (on/off, 5 volts or 0 volts)
-..* useful for reading buttons
+    * useful for reading buttons
 * [**analogWrite**(pin, 255)](https://www.arduino.cc/en/Reference/AnalogWrite)
     * sets a pin to a range of values (0 to 255)
     * useful for fading LEDs
