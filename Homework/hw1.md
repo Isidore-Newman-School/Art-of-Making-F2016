@@ -23,6 +23,7 @@ void testHearing() {
 }
 ```
 
+
 **(1)** In computer science the "%" (a.k.a. the modulo operator) is surprisingly useful. It is used to calculate the remainder after dividing two numbers. E.g.:
 
     5%2 = 1;
@@ -52,6 +53,7 @@ void fizzBuzz() {
 }
 ```
 
+
 **(2)**
 What does sum equal?
 
@@ -60,11 +62,13 @@ int lotteryTicket[] = { 40, 23, 11, 12, 52};
 int sum = lotteryTicket[0] + lotteryTicket[3];
 ```
 
+
 **(3)** Create two arrays: 
 1. an array of 5 elements called lightLevels[] with numbers between 0 and 255.
 2. an array called durations[] with 5 numbers between 100 and 1000.  
 
 Use a for loop to cycle through the elements of the arrays. Use **analogWrite()** to turn on an LED at the brightness level in the lightLevels[] array and keep it on for the amount of time in the durations[] array.
+
 
 **(4)** Write some code that turns all of the Neopixels blue when you press a button. Otherwise, it turns them all off.
 
