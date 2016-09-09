@@ -52,7 +52,7 @@ void loop() {
 
 ### Built-in 
 * [**setup**()](https://www.arduino.cc/en/Reference/Setup)  
-..* code to initialize the Arduino (pinMode() etc.)
+.. * code to initialize the Arduino (pinMode() etc.)
 * [**loop**()](https://www.arduino.cc/en/Reference/Loop)  
 ..* code that runs over and over again
 * [**pinMode**(pin, OUTPUT)](https://www.arduino.cc/en/Reference/PinMode)  
