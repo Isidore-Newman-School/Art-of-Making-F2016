@@ -10,7 +10,7 @@ The first step is to install the Neopixel Library from the Library Manager:
 
 ![alt text](http://codevista.net/wp-content/uploads/2015/08/Arduino-Library-Manager.png)
 
-![alt text](manager.png)
+![alt text](images/manager.png)
 
 ## Bare Minimum Neopixel Sketch
 Every Neopixel sketch must include the library by including this file:
@@ -74,7 +74,7 @@ The following functions can be used to control the pixels:
 
 To get a particular color of the rainbow, set the correct RGB values. Check out [http://www.colorpicker.com/](http://www.colorpicker.com/) to get the RGB values of any color:
 
-![alt text](colorpicker.png)
+![alt text](images/colorpicker.png)
 
 **Exercise** 
 **(1)** Set each LED to a different color of the rainbow.

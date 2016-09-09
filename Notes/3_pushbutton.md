@@ -11,7 +11,7 @@ In this example, we're going to use [**digitalRead()**](https://www.arduino.cc/e
 
 ## The Circuit
 
-![alt text](pushb.png)
+![alt text](images/pushb.png)
 
 ## Code
 ```c++
