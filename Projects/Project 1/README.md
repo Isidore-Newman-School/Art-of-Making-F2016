@@ -18,10 +18,10 @@ At least one instance of the following components must be used in your code:
 * Uniquely defined function that takes an argument
 
 ## Grade
-40% - Code
-30% - Musical Instrument Circuit
-20% - Engineering Lab Report
-10% - Presentation
+* 40% - Code
+* 30% - Musical Instrument Circuit
+* 20% - Engineering Lab Report
+* 10% - Presentation
 
 ## Evaluation
 The following criteria are used to evaluate creative assignments:
@@ -34,11 +34,11 @@ Effort: Is there evidence that you invested time and energy in the project?
 ##Plagiarism
 In the age of the internet, and particularly in the realm of computer programming, it is very easy to copy someone else’s work.
 
-**Code**
+**Code**  
 Sharing code and building off of previous work is permissible, and even encouraged, so long as:
 * The code is open source.
 * You give proper credit by including a comment in your code with a URL or clear description of the source code. Credit is also required for “adapted” code.
 * The copied/adapted code cannot make up a substantial portion of the project.
 
-**Instructables**
+**Instructables**  
 If you find a project online that you’d like to replicate, think about how you can make it your own. Using online projects for inspiration is permissible; copying projects directly is not. Talk to Ms. deBB if you have any questions.
