@@ -20,7 +20,7 @@ At least one instance of the following components must be used in your code:
 ## Grade
 * 40% - Code
 * 30% - Musical Instrument Circuit
-* 20% - Engineering Lab Report
+* 20% - [Engineering Lab Report](EngineeringLabReport-EM.pdf)
 * 10% - Presentation
 
 ## Evaluation
