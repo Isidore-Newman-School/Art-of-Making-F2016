@@ -4,7 +4,7 @@
 // Sound 
 import ddf.minim.*;
 Minim minim;
-AudioSample[] sounds;
+AudioPlayer[] sounds;
 Button[] soundButtons;
 
 // Serial
@@ -12,7 +12,9 @@ import processing.serial.*;
 Serial myPort;  
 int useSerial = -1;
 
-boolean playOnce = false;
+int lastVal = -1;
+boolean justPlayed = false;
+long lastChecked = 0;
 
 void setup() {
   size(600, 500, P3D);
@@ -26,6 +28,13 @@ void draw() {
     getSerialPort();
     //println(useSerial);
     return;
+  }
+  if (millis() - lastChecked > 1000) {
+    if (justPlayed) {
+      myPort.clear();
+      justPlayed = false;
+    }
+    
   }
   getData();
   drawButtons();
@@ -47,14 +56,15 @@ void drawButtons() {
 }
 
 void getData() {
-  if (myPort.available() > 0) { 
+  if (myPort.available() > 0 && justPlayed == false) { 
     int val = myPort.read(); 
-    if(val < 12) { 
-      //println(val);
-      sounds[val].trigger(); 
+    if (!sounds[val].isPlaying()) {
+      sounds[val].play(); 
       soundButtons[val].notePressed();
+      justPlayed = true;
+      lastChecked = millis();
     }  
-  }
+  } 
 }
 
 void getSerialPort(){
@@ -100,10 +110,10 @@ void getSerialPort(){
 
 void loadSounds() {
   minim = new Minim(this);
-  sounds = new AudioSample[12];
+  sounds = new AudioPlayer[12];
   for(int i=0; i<12; i++) {
     println(i);
     String f = "audio/" + i + ".wav";
-    sounds[i] = minim.loadSample(f, 512);
+    sounds[i] = minim.loadFile(f);
   }
 }
